@@ -1,6 +1,6 @@
 {
     "name": "@fizzygalacticus/is-promise",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Help determine if a value is a Promise.",
     "main": "index.js",
     "repository": "https://github.com/FizzyGalacticus/is-promise",
@@ -8,6 +8,12 @@
     "scripts": {
         "test": "mocha test/"
     },
+    "keywords": [
+        "is",
+        "promise",
+        "determine",
+        "if"
+    ],
     "license": "MIT",
     "devDependencies": {
         "assert": "^2.0.0",

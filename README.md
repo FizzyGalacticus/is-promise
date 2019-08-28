@@ -23,6 +23,7 @@ const results = isPromise(new Q(resolve => resolve())); // { promise: true, unce
 const results = isPromise(new Bluebird(resolve => resolve())); // { promise: true, uncertainty: true }
 const results = isPromise(new FakePromise(resolve => resolve())); // { promise: true, uncertainty: true }
 const results = isPromise(new RSVP.Promise(resolve => resolve())); // { promise: true, uncertainty: true }
+```
 
 ## Notes
 

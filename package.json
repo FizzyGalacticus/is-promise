@@ -1,0 +1,20 @@
+{
+    "name": "@fizzygalacticus/is-promise",
+    "version": "1.0.0",
+    "description": "Help determine if a value is a Promise.",
+    "main": "index.js",
+    "repository": "https://github.com/FizzyGalacticus/is-promise",
+    "author": "Dustin L. Dodson",
+    "scripts": {
+        "test": "mocha test/"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "assert": "^2.0.0",
+        "bluebird": "^3.5.5",
+        "mocha": "^6.2.0",
+        "promise": "^8.0.3",
+        "q": "^1.5.1",
+        "rsvp": "^4.8.5"
+    }
+}
